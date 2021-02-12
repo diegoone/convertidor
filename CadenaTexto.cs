@@ -1,8 +1,8 @@
 
 namespace Convertidor {
     public class CadenaTexto: CadenaFormato, IConvertidor {
-        public CadenaMorse(String contenido): 
-        base(contenido, CadenaFormato.FORMATO_MORSE) 
+        public CadenaTexto(String contenido): 
+        base(contenido, CadenaFormato.FORMATO_TEXTO) 
         {
 
         }
