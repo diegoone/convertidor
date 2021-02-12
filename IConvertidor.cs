@@ -2,6 +2,6 @@ using System;
 
 namespace Convertidor {
     public interface IConvertidor {
-         string translate(string formatoDestino);
+         string translateTo(string formatoDestino);
     }
 }
